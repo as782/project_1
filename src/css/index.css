@@ -1,9 +1,30 @@
-h1{ 
+h1 {
     width: 400px;
     height: 100px;
     color: blue;
+    text-align: center;
+    line-height: 100px;
     border: 1px solid #d9d;
-    border-radius: 50%;
+    border-radius: 12px;
     background-color: aquamarine;
     margin: 0px auto;
+}
+
+#img {
+
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    transition: all 1s;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 1px 1px #fff;
 }

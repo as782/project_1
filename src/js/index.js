@@ -1,6 +1,19 @@
 //点击事件
-function dd(){
-    alert("GitHub确实好用！");
-    let img =document.getElementById('#img1');
-    img.setAttribute('src',"./images/122.png");
+let flag = false;
+function dd() {
+    // alert("GitHub确实好用！");
+    var img = document.getElementById('img');
+    flag = !flag;
+    if (flag) {
+
+        img.setAttribute("src", ".\/images\/122.png");
+
+    } else {
+
+        img.setAttribute("src", "");
+
+    }
+
+    var alt = img.getAttribute('alt')
+    console.log(alt);
 }
